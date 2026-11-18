@@ -1,0 +1,20 @@
+2026-09-10 02:14:01 INFO  [alerts-api] Application startup complete
+2026-09-10 02:15:33 INFO  [alerts-api] POST /alerts/ 201 12ms
+2026-09-10 02:17:02 INFO  [alerts-api] POST /alerts/1/explain 200 45ms
+2026-09-10 02:22:18 ERROR [alerts-api] POST /alerts/2/explain 500 -- AttributeError: 'NoneType' object has no attribute 'upper'
+2026-09-10 02:22:19 INFO  [alerts-api] Retrying request 2/3
+2026-09-10 02:31:47 INFO  [alerts-api] POST /alerts/3/explain 200 51ms
+2026-09-10 02:44:09 ERROR [alerts-api] POST /alerts/7/explain 500 -- AttributeError: 'NoneType' object has no attribute 'upper'
+2026-09-10 02:44:10 INFO  [alerts-api] Retrying request 2/3
+2026-09-10 02:58:22 WARN  [alerts-api] Database connection pool at 82% capacity
+2026-09-10 03:05:41 INFO  [alerts-api] POST /alerts/9/explain 200 48ms
+2026-09-10 03:12:56 ERROR [alerts-api] POST /alerts/11/explain 500 -- AttributeError: 'NoneType' object has no attribute 'upper'
+2026-09-10 03:12:57 INFO  [alerts-api] Retrying request 2/3
+2026-09-10 03:20:03 ERROR [alerts-api] GET /alerts/14 404 -- Alert not found
+2026-09-10 03:33:19 INFO  [alerts-api] POST /alerts/15/explain 200 44ms
+2026-09-10 03:41:52 ERROR [alerts-api] POST /alerts/18/explain 500 -- AttributeError: 'NoneType' object has no attribute 'upper'
+2026-09-10 03:41:53 INFO  [alerts-api] Retrying request 2/3
+2026-09-10 03:50:07 WARN  [alerts-api] Database connection pool at 91% capacity
+2026-09-10 04:02:31 ERROR [alerts-api] POST /alerts/21/explain 500 -- AttributeError: 'NoneType' object has no attribute 'upper'
+2026-09-10 04:02:32 INFO  [alerts-api] Retrying request 2/3
+2026-09-10 04:15:44 INFO  [alerts-api] POST /alerts/23/explain 200 47ms

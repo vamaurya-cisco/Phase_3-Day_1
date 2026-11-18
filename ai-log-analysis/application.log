@@ -1,0 +1,19 @@
+2026-11-18 06:03:36 INFO Application started successfully
+2026-11-17 09:00:01 INFO Application started successfully
+2026-11-17 09:01:12 INFO Employee API request received
+2026-11-17 09:02:15 ERROR DatabaseConnectionError: Unable to connect to database
+2026-11-17 09:02:20 ERROR DatabaseConnectionError: Unable to connect to database
+2026-11-17 09:03:05 WARNING Slow database response: 8 seconds
+2026-11-17 09:04:10 ERROR ValueError: Invalid employee salary value
+2026-11-17 09:04:45 ERROR ValueError: Invalid employee salary value
+2026-11-17 09:05:12 INFO Employee record created successfully
+2026-11-17 09:06:30 ERROR TimeoutError: External payment API request timed out
+2026-11-17 09:06:55 ERROR TimeoutError: External payment API request timed out
+2026-11-17 09:07:10 WARNING Payment API response delayed
+2026-11-17 09:08:22 ERROR DatabaseConnectionError: Unable to connect to database
+2026-11-17 09:09:15 INFO Employee details fetched successfully
+2026-11-17 09:10:30 ERROR KeyError: Employee ID not found
+2026-11-17 09:11:00 INFO Application health check successful
+2026-11-17 09:12:10 ERROR ZeroDivisionError: Division by zero
+2026-11-17 09:13:45 WARNING High API response time detected
+2026-11-17 09:14:20 INFO Application request completed
